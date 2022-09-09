@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Exception {
 
+    public Exception(String str) {
+    }
     public static void divide(){
 
         Scanner sc=new Scanner(System.in);
@@ -19,9 +21,9 @@ public class Exception {
         }
 
         finally{
-            System.out.println("Hello");
+            System.out.println("Finally block executed");
         }
-       
+       System.out.println("Hello");
         
 
     }
